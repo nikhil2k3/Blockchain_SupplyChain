@@ -8,9 +8,11 @@
     "test": "test"
   },
   "dependencies": {
+    "@truffle/hdwallet-provider": "^2.1.15",
+    "ganache": "^7.9.2",
+    "solc": "^0.8.20",
     "truffle-hdwallet-provider": "^1.0.2"
   },
-  "devDependencies": {},
   "scripts": {
     "docs:init": "node_modules/.bin/doxity init",
     "docs:compile": "node_modules/.bin/doxity compile",
