@@ -1,23 +1,20 @@
 module.exports = {
   networks: {
     development: {
-      host: "127.0.0.1",
-      port: 7545,
-      network_id: "5777",
-      gas: 6721975,
-      gasPrice: 20000000000
-    }
+      host: "127.0.0.1", // Localhost
+      port: 7545,        // Ganache port
+      network_id: "5777",   // Match any network id
+    },
   },
-  contracts_build_directory: "./src/contracts",
+
   compilers: {
     solc: {
-      version: "0.8.0",
-      settings: {
-        optimizer: {
-          enabled: true,
-          runs: 200
-        }
-      }
-    }
-  }
+      version: "0.8.20", // Use the same version as your smart contracts
+    },
+  },
+
+  // Optional: Set default mocha configuration
+  mocha: {
+    timeout: 100000,
+  },
 };

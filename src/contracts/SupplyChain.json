@@ -12581,12 +12581,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0x17a204DcE508C77eA03e82745D12300dd518b8f9",
-      "transactionHash": "0x0487e1e4b0abb3e032e2759f096cf28699dc2ebaced2f2c42a567c4ec210ff47"
+      "address": "0xc4F065aa4833e9E3d26291cbc1d7a84f99057968",
+      "transactionHash": "0x8a5c19c4848e87f11c263451a272fa857d5d63fe8157c0e11652f48df7b58f9e"
     }
   },
   "schemaVersion": "3.4.16",
-  "updatedAt": "2024-12-08T13:12:11.838Z",
+  "updatedAt": "2024-12-08T16:39:22.179Z",
   "networkType": "ethereum",
   "devdoc": {
     "details": "Smart contract for managing the supply chain of pharmaceutical products",
